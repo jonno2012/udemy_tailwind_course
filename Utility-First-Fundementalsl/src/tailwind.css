@@ -5,18 +5,34 @@
 .display-none {
     @apply hidden;
 }
-.btn {
-    @apply px-4 py-1 border font-medium text-sm rounded-xl
-    focus:outline-none focus:ring-4 hover:border-transparent
-    focus:ring-offset-2 font-medium focus:ring-red-400
+
+@layer base {
+    h1 {
+        @apply text-2xl
+    }
 }
 
-.btn-green {
-    @apply border-cyan-500 text-green-400 bg-green-900
-    hover:bg-green-400 hover:text-white
+@layer utilities {
+    .text-body {
+        font-size: 20px;
+    }
 }
 
-.btn-red {
-    @apply border-cyan-500 text-red-400 bg-red-900 hover:bg-red-400
-    hover:text-white
+@layer components {
+    .btn {
+        @apply rounded-xl px-4 py-1 border font-medium text-sm rounded-xl
+        focus:outline-none focus:ring-4 hover:border-transparent
+        focus:ring-offset-2 font-medium focus:ring-red-400
+    }
+
+    .btn-green {
+        @apply border-cyan-500 text-green-400 bg-green-900
+        hover:bg-green-400 hover:text-white
+    }
+
+    .btn-red {
+        @apply border-cyan-500 text-red-400 bg-red-900 hover:bg-red-400
+        hover:text-white
+    }
 }
+
