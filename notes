@@ -7,4 +7,6 @@ via CDN - You can't customise
 * add TW build scripts
 *  run npm build - to build as per "scripts" command
 * support html in TW config file
-* 'Utility first (which is what TW is) means you apply styles by adding classes to the HTML.'
+* 'Utility first (which is what TW is) means you apply styles by adding classes to the HTML.
+* using the 'media' option to switch dark mode in tailwind.config.js uses the OS color mode.
+* using the 'class' option uses whatever custom classes you have created.
