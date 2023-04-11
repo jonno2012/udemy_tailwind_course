@@ -7,3 +7,4 @@ via CDN - You can't customise
 * add TW build scripts
 *  run npm build - to build as per "scripts" command
 * support html in TW config file
+* 'Utility first (which is what TW is) means you apply styles by adding classes to the HTML.'
