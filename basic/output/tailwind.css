@@ -923,6 +923,31 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(22 163 74 / var(--tw-text-opacity));
 }
 
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
+.text-\[\#e6e6e6\] {
+  --tw-text-opacity: 1;
+  color: rgb(230 230 230 / var(--tw-text-opacity));
+}
+
+.text-\[\#3b3b3b\] {
+  --tw-text-opacity: 1;
+  color: rgb(59 59 59 / var(--tw-text-opacity));
+}
+
+.text-\[\#4eec34\] {
+  --tw-text-opacity: 1;
+  color: rgb(78 236 52 / var(--tw-text-opacity));
+}
+
+.text-\[\#4eec3f\] {
+  --tw-text-opacity: 1;
+  color: rgb(78 236 63 / var(--tw-text-opacity));
+}
+
 .underline {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
@@ -998,6 +1023,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .selection\:bg-purple-800::selection {
   --tw-bg-opacity: 1;
   background-color: rgb(107 33 168 / var(--tw-bg-opacity));
+}
+
+.after\:content-\[\'\*\'\]::after {
+  --tw-content: '*';
+  content: var(--tw-content);
 }
 
 .hover\:bg-blue-400:hover {
