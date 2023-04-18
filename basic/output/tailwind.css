@@ -506,6 +506,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-column: span 2 / span 2;
 }
 
+.row-span-2 {
+  grid-row: span 2 / span 2;
+}
+
 .m-12 {
   margin: 3rem;
 }
@@ -581,12 +585,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex: 0 1 auto;
 }
 
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-rows-3 {
+  grid-template-rows: repeat(3, minmax(0, 1fr));
+}
+
+.grid-rows-5 {
+  grid-template-rows: repeat(5, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -642,6 +658,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-yellow-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(133 77 14 / var(--tw-bg-opacity));
+}
+
+.bg-slate-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
 }
 
 .p-2 {
