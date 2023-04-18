@@ -576,6 +576,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.25rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -1083,6 +1087,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 2rem;
 }
 
+.p-6 {
+  padding: 1.5rem;
+}
+
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -1138,6 +1146,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-extrabold {
@@ -1214,9 +1227,32 @@ Ensure the default browser behavior of the `hidden` attribute.
           text-decoration-color: #0ea5e9;
 }
 
+.decoration-violet-500 {
+  -webkit-text-decoration-color: #8b5cf6;
+          text-decoration-color: #8b5cf6;
+}
+
+.decoration-pink-500 {
+  -webkit-text-decoration-color: #ec4899;
+          text-decoration-color: #ec4899;
+}
+
+.decoration-violet-700 {
+  -webkit-text-decoration-color: #6d28d9;
+          text-decoration-color: #6d28d9;
+}
+
 .decoration-dotted {
   -webkit-text-decoration-style: dotted;
           text-decoration-style: dotted;
+}
+
+.decoration-2 {
+  text-decoration-thickness: 2px;
+}
+
+.decoration-4 {
+  text-decoration-thickness: 4px;
 }
 
 .placeholder-green-400::-moz-placeholder {
