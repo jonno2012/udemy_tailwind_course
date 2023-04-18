@@ -561,6 +561,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 20rem;
 }
 
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.flex-initial {
+  flex: 0 1 auto;
+}
+
 .flex-col {
   flex-direction: column;
 }
