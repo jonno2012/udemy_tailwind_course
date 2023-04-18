@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Tailwind Project </title>
-     <link rel="stylesheet" href="./output/tailwind.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Project </title>
+    <link rel="stylesheet" href="./output/tailwind.css"/>
 </head>
 <body>
 
-     <div class="flex bg-red-500 w-auto">
-         <div class="flex-initial h-10 w-80 bg-slate-500">A</div>
-         <div class="flex-initial h-10 w-80 bg-green-800">B</div>
-         <div class="flex-initial h-10 w-80 bg-blue-800">C</div>
-         <div class="flex-initial h-10 w-80 bg-yellow-800">D</div>
-     </div>
-     
+<div class="bg-red-500 w-auto grid grid-cols-3 gap-4">
+    <div class="col-span-2 h-20 bg-slate-500 p-2">A</div>
+    <div class="h-20 bg-green-800 p-2">B</div>
+    <div class="h-20 bg-blue-800 p-2">C</div>
+
+    <div class="h-20 bg-slate-500 p-2">E</div>
+    <div class="h-20 bg-green-800 p-2">F</div>
+    <div class="h-20 bg-blue-800 p-2">G</div>
+
+    <div class="h-20 bg-slate-500 p-2">H</div>
+    <div class="h-20 bg-green-800 p-2">I</div>
+    <div class="h-20 bg-blue-800 p-2">J</div>
+
+</div>
+
 </body>
 </html>
