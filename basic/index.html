@@ -8,16 +8,15 @@
     <link rel="stylesheet" href="./output/tailwind.css"/>
 </head>
 <body>
-<div class="mt-20 px-4">
-    <p class="text-slate-600 print:text-orange-800">Lorem ipsum dolor sit amet consectetur adipiscing elit felis condimentum, metus gravida sagittis aliquam
-        placerat quisque augue torquent, primis non sollicitudin pulvinar porttitor hendrerit lacus senectus
-    </p>
-
-    <p class="mt-6 text-r print:hidden">
-        <button onclick="window.print()" class="bg-purple-700 text-white border-0 px-3 py-2 rounded-xl">
-            Print
-        </button>
-    </p>
+<div class="min-h-screen grid place-items-center px-8">
+    <div class="w-full max-w-4xl mx-auto">
+        <iframe class="w-full rounded-md aspect-video"
+                width="560" height="315"
+                src="https://www.youtube.com/embed/TGBJVgoB7U0"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+    </div>
 </div>
 </body>
 </html>
