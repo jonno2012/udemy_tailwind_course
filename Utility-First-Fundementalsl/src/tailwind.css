@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.display-none {
+    @apply hidden;
+}
+
 @media screen(sm) {
     .text-body {
         font-size: 30px;
@@ -14,3 +18,14 @@
     }
 }
 
+@layer base {
+    h1 {
+        @apply text-2xl
+    }
+}
+
+@layer utilities {
+    .text-body {
+        font-size: 30px;
+    }
+}
