@@ -552,6 +552,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 5rem;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -748,6 +752,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 1px;
 }
 
+.border-0 {
+  border-width: 0px;
+}
+
 .border-dashed {
   border-style: dashed;
 }
@@ -854,6 +862,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-cyan-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(21 94 117 / var(--tw-bg-opacity));
+}
+
+.bg-purple-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(126 34 206 / var(--tw-bg-opacity));
 }
 
 .p-2 {
@@ -964,6 +977,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-\[\#4eec3f\] {
   --tw-text-opacity: 1;
   color: rgb(78 236 63 / var(--tw-text-opacity));
+}
+
+.text-slate-600 {
+  --tw-text-opacity: 1;
+  color: rgb(71 85 105 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1093,6 +1111,22 @@ Ensure the default browser behavior of the `hidden` attribute.
 .focus\:ring-sky-800:focus {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(7 89 133 / var(--tw-ring-opacity));
+}
+
+@media print {
+  .print\:hidden {
+    display: none;
+  }
+
+  .print\:text-black {
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+  }
+
+  .print\:text-orange-800 {
+    --tw-text-opacity: 1;
+    color: rgb(154 52 18 / var(--tw-text-opacity));
+  }
 }
 
 @media (min-width: 768px) {
