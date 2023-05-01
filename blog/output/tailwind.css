@@ -502,6 +502,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.left-3 {
+  left: 0.75rem;
+}
+
+.top-2 {
+  top: 0.5rem;
+}
+
 .m-12 {
   margin: 3rem;
 }
@@ -519,6 +535,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 0.5rem;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -531,8 +559,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 8rem;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .items-center {
   align-items: center;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
 }
 
 .bg-red-800 {
@@ -545,6 +581,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(203 213 225 / var(--tw-bg-opacity));
 }
 
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -555,12 +596,30 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.75rem;
 }
 
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.pl-11 {
+  padding-left: 2.75rem;
+}
+
+.pr-2 {
+  padding-right: 0.5rem;
+}
+
 .font-poppins {
   font-family: Poppins;
 }
 
 .font-roboto {
   font-family: Roboto;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-semibold {
@@ -575,6 +634,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-gray-600 {
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+
+.text-gray-900 {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
 .shadow-sm {
@@ -605,4 +669,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:text-blue-700:hover {
   --tw-text-opacity: 1;
   color: rgb(29 78 216 / var(--tw-text-opacity));
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
