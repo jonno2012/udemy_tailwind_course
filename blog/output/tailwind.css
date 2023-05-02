@@ -563,6 +563,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 0.75rem;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .block {
   display: block;
 }
@@ -583,6 +587,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 15rem;
 }
 
+.h-8 {
+  height: 2rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -597,6 +605,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-6\/12 {
   width: 50%;
+}
+
+.w-8 {
+  width: 2rem;
 }
 
 .flex-shrink-0 {
@@ -619,12 +631,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .space-y-2 > :not([hidden]) ~ :not([hidden]) {
@@ -675,6 +695,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .border-blue-500 {
   --tw-border-opacity: 1;
   border-color: rgb(59 130 246 / var(--tw-border-opacity));
+}
+
+.border-gray-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(156 163 175 / var(--tw-border-opacity));
 }
 
 .bg-slate-300 {
@@ -914,8 +939,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-right: 1.5rem;
   }
 
+  .lg\:mt-0 {
+    margin-top: 0px;
+  }
+
   .lg\:w-9\/12 {
     width: 75%;
+  }
+
+  .lg\:w-3\/12 {
+    width: 25%;
   }
 }
 
